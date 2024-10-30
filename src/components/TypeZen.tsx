@@ -1,5 +1,5 @@
 import { wordsList } from '../words';
-import { useWordList } from './hooks';
+import { useWordList } from '../hooks';
 
 export const TypeZen = () => {
     const wordList = useWordList(wordsList, 15);
